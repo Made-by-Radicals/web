@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Mady by Radicals | We're building impactful products.</title>
+                <title>Mady by Radicals | We&apos;re building impactful products.</title>
                 <meta charset='utf-8'></meta>
                 <meta http-equiv='x-ua-compatible' content='ie=edge'></meta>
 
@@ -26,7 +26,7 @@ export default function Home() {
                     <div className={styles.center}>
                         <div>
                             <h1 className={styles.headline + ' ' + inter.className}>
-                                We're building <s className={styles.crazy}>crazy</s>&nbsp; impactful products.
+                                We&apos;re building <s className={styles.crazy}>crazy</s>&nbsp; impactful products.
                             </h1>
                         </div>
                     </div>
