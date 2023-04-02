@@ -112,6 +112,12 @@
     .main {
         padding: 0 2rem;
     }
+    .fold {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        background: var(--background-solid-green);
+    }
     .hi {
         margin-top: 2rem;
     }
@@ -154,5 +160,11 @@
 @media (min-width: 701px) and (max-width: 1120px) {
     .grid {
         grid-template-columns: repeat(2, 50%);
+    }
+    .fold {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        background: var(--background-solid-green);
     }
 }
