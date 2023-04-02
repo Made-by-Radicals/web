@@ -9,11 +9,11 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Mady by Radicals | We're building crazy impactful products.</title>
+                <title>Mady by Radicals | We're building impactful products.</title>
                 <meta charset='utf-8'></meta>
                 <meta http-equiv='x-ua-compatible' content='ie=edge'></meta>
 
-                <meta name='description' content="We're building crazy impactful products." />
+                <meta name='description' content="We're building impactful products." />
                 <meta name='author' content='Made by Radicals'></meta>
                 <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
 
