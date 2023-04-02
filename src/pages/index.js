@@ -31,7 +31,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div className={styles.bottom}>
-                        <h2>Made by Radicals®</h2>
+                        <h5>Made by Radicals®</h5>
                     </div>
                 </article>
                 <article className={styles.background}></article>
