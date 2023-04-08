@@ -41,7 +41,7 @@ export default function Home() {
                     <div>
                         <p>
                             From the first crypto hardware wallet to all-day wearable tech — our team has years of experience building and
-                            marketing products. With a shared vision for pursuing our ideals, we've combined our strengths to make a
+                            marketing products. With a shared vision for pursuing our ideals, we&apos;ve combined our strengths to make a
                             meaningful impact.
                         </p>
                         <svg fill='none' viewBox='0 0 161.768 40.771' className={styles.trezorLogo}>
