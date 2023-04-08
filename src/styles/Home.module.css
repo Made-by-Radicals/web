@@ -1,12 +1,14 @@
 .main {
     position: relative;
-    padding: 0 4rem;
+    padding: 0;
+
     min-height: 100vh;
 }
 .fold {
     min-height: 100vh;
     position: relative;
     display: flex;
+    padding: 0 4rem;
     background: var(--background-solid-green);
 }
 .hi {
@@ -89,6 +91,33 @@
     text-align: center;
 }
 
+.background {
+    background-color: rgb(8, 8, 11);
+    color: white;
+    min-height: auto;
+    position: relative;
+    display: flex;
+    padding: 8rem 4rem;
+}
+.background p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    max-width: 840px;
+    margin-left: 5rem;
+}
+.background svg {
+    height: 20px;
+    margin: 5rem 0rem 3rem 5rem;
+}
+svg.trezorLogo {
+    height: 30px;
+}
+.background h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
     .card:hover {
@@ -109,14 +138,29 @@
 
 /* Mobile */
 @media (max-width: 700px) {
-    .main {
-        padding: 0 2rem;
-    }
     .fold {
         min-height: 100vh;
         position: relative;
         display: flex;
+        padding: 0 2rem;
         background: var(--background-solid-green);
+    }
+    .background {
+        padding: 5rem 2rem;
+        flex-direction: column;
+    }
+    .background p {
+        margin-left: 0;
+        font-size: 1.2rem;
+        list-style: 1.3rem;
+        margin-top: 2rem;
+    }
+    .background svg {
+        height: 18px;
+        margin: 3rem 2rem 0rem 0rem;
+    }
+    svg.trezorLogo {
+        height: 25px;
     }
     .hi {
         margin-top: 2rem;
