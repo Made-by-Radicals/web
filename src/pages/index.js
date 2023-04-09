@@ -26,7 +26,7 @@ export default function Home() {
                     <div className={styles.center}>
                         <div>
                             <h1 className={styles.headline + ' ' + inter.className}>
-                                We&apos;re building <s className={styles.crazy}>crazy</s>&nbsp; impactful products.
+                                We&apos;re building radical and impactful products.
                             </h1>
                         </div>
                     </div>
