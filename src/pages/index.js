@@ -9,11 +9,11 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Mady by Radicals | We&apos;re building impactful products.</title>
+                <title>Mady by Radicals | We&apos;re building bold impactful products.</title>
                 <meta charset='utf-8'></meta>
                 <meta http-equiv='x-ua-compatible' content='ie=edge'></meta>
 
-                <meta name='description' content="We're building impactful products." />
+                <meta name='description' content="We're building bold impactful products." />
                 <meta name='author' content='Made by Radicals'></meta>
                 <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
 
@@ -25,7 +25,7 @@ export default function Home() {
                     <div className={styles.hi}>Hi!</div>
                     <div className={styles.center}>
                         <div>
-                            <h1 className={styles.headline + ' ' + inter.className}>We&apos;re building bold and impactful products.</h1>
+                            <h1 className={styles.headline + ' ' + inter.className}>We&apos;re building bold impactful products.</h1>
                         </div>
                     </div>
                     <div className={styles.bottom}>

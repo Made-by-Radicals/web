@@ -19,14 +19,14 @@
     margin-top: 4rem;
 }
 .headline {
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     font-weight: 800;
-    line-height: 3.8rem;
+    line-height: 4rem;
     letter-spacing: -0.01em;
     text-align: left;
 }
 .headline::after {
-    content: '私たちは大胆でインパクトのある製品を作っています。';
+    content: '大胆なインパクトのある製品を作っています。';
     display: block;
     font-size: 1.1rem;
     color: rgb(1, 62, 0);
@@ -162,8 +162,8 @@ svg.trezorLogo {
     }
 
     .headline {
-        font-size: 2rem;
-        line-height: 2.4rem;
+        font-size: 2.4rem;
+        line-height: 2.8rem;
     }
     .headline::after {
         margin-top: 5px;
