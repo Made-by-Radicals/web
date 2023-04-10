@@ -15,34 +15,29 @@
     position: absolute;
     font-size: 1.5rem;
     font-weight: 600;
-    opacity: 0.7;
+    opacity: 0.9;
     margin-top: 4rem;
 }
 .headline {
     font-size: 3.5rem;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 3.8rem;
     letter-spacing: -0.01em;
     text-align: left;
 }
 .headline::after {
-    content: '私たちはクレイジーでインパクトのある製品を作っています。';
+    content: '私たちは大胆でインパクトのある製品を作っています。';
     display: block;
     font-size: 1.1rem;
     color: rgb(1, 62, 0);
     opacity: 0.5;
     margin-top: 10px;
 }
-
-.crazy {
-    font-family: var(--font-handwritten);
-    opacity: 0.8;
-}
 .bottom {
     position: absolute;
     font-size: 1.5rem;
     font-weight: 600;
-    opacity: 0.6;
+    opacity: 0.9;
     bottom: 4rem;
 }
 
@@ -167,8 +162,8 @@ svg.trezorLogo {
     }
 
     .headline {
-        font-size: 2.5rem;
-        line-height: 2.8rem;
+        font-size: 2rem;
+        line-height: 2.4rem;
     }
     .headline::after {
         margin-top: 5px;

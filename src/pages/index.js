@@ -25,13 +25,11 @@ export default function Home() {
                     <div className={styles.hi}>Hi!</div>
                     <div className={styles.center}>
                         <div>
-                            <h1 className={styles.headline + ' ' + inter.className}>
-                                We&apos;re building radical and impactful products.
-                            </h1>
+                            <h1 className={styles.headline + ' ' + inter.className}>We&apos;re building bold and impactful products.</h1>
                         </div>
                     </div>
                     <div className={styles.bottom}>
-                        <h5>Made by Radicals®</h5>
+                        <h5>Made by Radicals</h5>
                     </div>
                 </article>
                 <article className={styles.background}>
@@ -44,7 +42,7 @@ export default function Home() {
                             marketing products. With a shared vision for pursuing our ideals, we&apos;ve combined our strengths to make a
                             meaningful impact.
                         </p>
-                        <svg fill='none' viewBox='0 0 161.768 40.771' className={styles.trezorLogo}>
+                        {/* <svg fill='none' viewBox='0 0 161.768 40.771' className={styles.trezorLogo}>
                             <path
                                 fill='currentColor'
                                 d='M24.306 9.461C24.306 4.29 19.761 0 14.228 0 8.694 0 4.148 4.292 4.148 9.46v3.025H0v21.75l14.225 6.536 14.233-6.534V12.581H24.31l-.003-3.121Zm-15.02 0c0-2.438 2.175-4.389 4.942-4.389 2.767 0 4.94 1.951 4.94 4.389v3.024H9.287V9.461Zm13.44 21.264-8.502 3.904-8.499-3.901V17.655h17v13.07z'
@@ -84,7 +82,7 @@ export default function Home() {
                                 d='M0 12.9388L9.05426 4L15.0155 9.8852L20.9767 4L26.938 9.8852L32.8992 4L36 7.05357L26.938 16L20.9767 10.1148L15.0155 16L9.05426 10.1148L3.09302 16L0 12.9388Z'
                                 fill='#ffffff'
                             />
-                        </svg>
+                        </svg> */}
                     </div>
                 </article>
                 <article className={styles.contact}></article>
