@@ -10,39 +10,48 @@ export default function Home() {
         <>
             <Head>
                 <title>Mady by Radicals | We&apos;re building bold impactful products.</title>
-                <meta charset='utf-8'></meta>
-                <meta http-equiv='x-ua-compatible' content='ie=edge'></meta>
+                <meta charSet='utf-8'></meta>
+                <meta httpEquiv='x-ua-compatible' content='ie=edge'></meta>
 
                 <meta name='description' content="We're building bold impactful products." />
                 <meta name='author' content='Made by Radicals'></meta>
                 <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
 
-                <link rel='icon' href='/favicon.ico' />
+                <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
+                <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+                <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
+                <link rel='manifest' href='/site.webmanifest'></link>
             </Head>
 
             <main className={styles.main}>
                 <article className={styles.fold}>
-                    <div className={styles.hi}>Hi!</div>
+                    <div className={styles.hi}>
+                        {' '}
+                        <Image src='/logo.svg' width={'110'} height={'110'} alt='Made by Radicals logo' />
+                    </div>
                     <div className={styles.center}>
                         <div>
-                            <h1 className={styles.headline + ' ' + inter.className}>We&apos;re building bold impactful products.</h1>
+                            <h1 className={styles.headline + ' ' + inter.className + ' ' + styles.fadeIn}>
+                                We&apos;re building bold impactful products.
+                            </h1>
                         </div>
                     </div>
-                    <div className={styles.bottom}>
-                        <h5>Made by Radicals</h5>
-                    </div>
+                    {/* <div className={styles.bottom}>
+                       
+                    </div> */}
                 </article>
                 <article className={styles.background}>
                     <div>
-                        <h3>Background</h3>
+                        <h3>Team background</h3>
                     </div>
                     <div>
                         <p>
-                            From the first crypto hardware wallet to all-day wearable tech — our team has years of experience building and
-                            marketing products. With a shared vision for pursuing our ideals, we&apos;ve combined our strengths to make a
-                            meaningful impact.
+                            With a solid background in developing bleeding-edge apps and deep tech solutions, we&apos;re focused on making a
+                            real difference. Our radical approach helps us stand out, as we bring together our diverse talents to create
+                            impactful and purpose-driven products. Motivated to improve the industry, we offer a fresh and grounded
+                            perspective that encourages positive change.
                         </p>
-                        {/* <svg fill='none' viewBox='0 0 161.768 40.771' className={styles.trezorLogo}>
+                        <svg fill='none' viewBox='0 0 161.768 40.771' className={styles.trezorLogo}>
                             <path
                                 fill='currentColor'
                                 d='M24.306 9.461C24.306 4.29 19.761 0 14.228 0 8.694 0 4.148 4.292 4.148 9.46v3.025H0v21.75l14.225 6.536 14.233-6.534V12.581H24.31l-.003-3.121Zm-15.02 0c0-2.438 2.175-4.389 4.942-4.389 2.767 0 4.94 1.951 4.94 4.389v3.024H9.287V9.461Zm13.44 21.264-8.502 3.904-8.499-3.901V17.655h17v13.07z'
@@ -82,7 +91,7 @@ export default function Home() {
                                 d='M0 12.9388L9.05426 4L15.0155 9.8852L20.9767 4L26.938 9.8852L32.8992 4L36 7.05357L26.938 16L20.9767 10.1148L15.0155 16L9.05426 10.1148L3.09302 16L0 12.9388Z'
                                 fill='#ffffff'
                             />
-                        </svg> */}
+                        </svg>
                     </div>
                 </article>
                 <article className={styles.contact}></article>

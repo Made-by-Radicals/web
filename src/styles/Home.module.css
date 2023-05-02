@@ -87,18 +87,22 @@
 }
 
 .background {
-    background-color: rgb(8, 8, 11);
+    /* background: linear-gradient(46deg, rgb(226, 128, 0) 0%, rgb(149, 7, 59) 100%); */
+    background: rgb(14, 19, 56);
+    background: linear-gradient(46deg, rgb(0, 0, 0) 0%, rgb(14, 19, 56) 100%);
     color: white;
     min-height: auto;
     position: relative;
     display: flex;
-    padding: 8rem 4rem;
+    padding: 20% 4rem;
 }
 .background p {
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
     max-width: 840px;
     margin-left: 5rem;
+    opacity: 0.85;
+    letter-spacing: 1.1;
 }
 .background svg {
     height: 20px;
@@ -108,8 +112,9 @@ svg.trezorLogo {
     height: 30px;
 }
 .background h3 {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 300;
+    letter-spacing: 1.5px;
     opacity: 0.5;
 }
 
@@ -205,5 +210,20 @@ svg.trezorLogo {
         position: relative;
         display: flex;
         background: var(--background-solid-green);
+    }
+}
+
+.fadeIn {
+    animation: 0.35s ease-in-out fadeIn;
+}
+
+@keyframes fadeIn {
+    0% {
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+        opacity: 1;
     }
 }
